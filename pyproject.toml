@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab-musculoskeletal-simulation-runtime"
+version = "0.1.0"
+description = "MyoAssist simulation, loopback TCP and ROS 2 runtime sharing package"
+requires-python = ">=3.11,<3.12"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+dependencies = [
+  "myosuite==2.8.4",
+  "myo-sim==0.2.3",
+  "assist-sim==1.0.0",
+  "myoassist-terrains==1.0.0",
+  "numpy==2.2.6",
+  "mujoco==3.4.0",
+  "dm-control==1.0.36",
+  "scipy==1.17.1",
+  "matplotlib==3.11.2",
+  "imageio==2.37.0",
+  "imageio-ffmpeg==0.6.0",
+  "Pillow==13.0.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["myoassist_utils*", "rl_train*", "tools*"]
+
+[tool.setuptools.package-data]
+tools = ["dephy_exo.json"]
+
+[tool.uv]
+# The exact compatibility overrides used by the upstream MyoAssist runtime.
+# MyoSuite 2.8.4 metadata pins older versions; model composition requires 3.4.
+override-dependencies = ["mujoco==3.4.0", "dm-control==1.0.36"]

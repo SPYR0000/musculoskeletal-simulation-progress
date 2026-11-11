@@ -1,0 +1,15 @@
+This research sharing package includes selected runtime source files from:
+MyoAssist, NeuMove Lab, Northeastern University
+https://github.com/neumovelab/myoassist
+Baseline commit: b1baf69da59dc6728515d0977cbc8fbf00b9225a
+
+The original Apache-2.0 license is retained in LICENSE.
+Selected MyoAssist runtime files are copied without modification.
+Research additions provide TCP/JSON control, ROS 2 bridging, visualization,
+logging and evaluation. Test-only interpreter selection changes are documented
+in results/runtime_source_provenance.json.
+
+MS-Human-700 models, msgym environments, DynSyn-SAC, MyoSuite and other
+third-party dependencies are attributed in docs/SCOPE_AND_SOURCES.md.
+These assets and checkpoints are obtained from their official sources and
+are not bundled as original work of this sharing package.

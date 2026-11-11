@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-11",
+  "scope": "Portable script, CPU headless 10-step tests in existing environment; no fresh installation or window retest.",
+  "new_installation_tested": false,
+  "window_retested": false,
+  "runs": {
+    "full": {
+      "actual_time_s": 0.20000000000000015,
+      "actor_calls": 10,
+      "kinematic_play": false,
+      "reason": "requested_duration",
+      "baseline_prefix_max_abs_diff": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "act": 0.0,
+        "ctrl": 0.0,
+        "actor_output": 0.0
+      }
+    },
+    "legs": {
+      "actual_time_s": 0.20000000000000015,
+      "actor_calls": 10,
+      "kinematic_play": false,
+      "reason": "requested_duration",
+      "baseline_prefix_max_abs_diff": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "act": 0.0,
+        "ctrl": 0.0,
+        "actor_output": 0.0
+      }
+    }
+  },
+  "markdown_links_passed": true,
+  "python_syntax_passed": true
+}

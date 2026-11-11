@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "working_directory": "independent sharing package root",
+  "fresh_simulation_environment_installed": true,
+  "fresh_environment_install_command": "bash scripts/setup_sim.sh",
+  "tcp": {
+    "tests": 13,
+    "passed": true
+  },
+  "ros": {
+    "passed": true,
+    "checks": [
+      "DDS topic discovery",
+      "six independent/mapping/clipping probes",
+      "real simulation time and joint feedback",
+      "watchdog zero output via ROS feedback",
+      "ROS feedback equals TCP simulator log",
+      "bridge exit disconnect closure",
+      "server stop"
+    ],
+    "viewer_tested": true,
+    "user_demo_tested": true
+  },
+  "comparison": {
+    "passed": true,
+    "window_tested": false,
+    "samples_checked_against_server": 78,
+    "separate_ROS_and_simulation_processes": true,
+    "equal_full_initial_state": true,
+    "same_step_count": true,
+    "identical_muscle_inputs": true,
+    "deterministic_repeats": true,
+    "not_an_assistance_efficacy_test": true
+  },
+  "comparison_kinematics": {
+    "right_pulse": {
+      "max_abs_angle_delta_rad": 0.015393665135621903,
+      "max_abs_velocity_delta_rad_s": 0.21323604853989742,
+      "final_angle_delta_rad": 0.004044378161532414,
+      "final_velocity_delta_rad_s": 0.014478710434967911
+    },
+    "left_pulse": {
+      "max_abs_angle_delta_rad": 0.015381236475695281,
+      "max_abs_velocity_delta_rad_s": 0.2108061573795823,
+      "final_angle_delta_rad": 0.00409044501753808,
+      "final_velocity_delta_rad_s": 0.013702158077803218
+    }
+  },
+  "original_environment_tests_also_passed": true,
+  "notes": [
+    "ROS feedback checked against raw TCP log",
+    "ROS control target: myolegs22 + DephyExoBoot_L1; no MS-Human-700 ROS control",
+    "No training or original-model changes"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "msk_key": "myolegs22",
+  "device_key": "DephyExoBoot_L1",
+  "muscle_action": 0.0,
+  "target_velocity_m_s": 0.0,
+  "channels": [
+    {
+      "name": "right",
+      "actuator": "Exo_R",
+      "joint": "ankle_angle_r",
+      "ctrlrange": [
+        -1.0,
+        0.0
+      ],
+      "gain": 100.0,
+      "gear": 1.0,
+      "off_ctrl": 0.0,
+      "off_action": 1.0,
+      "ctrl_unit": "dimensionless",
+      "output_unit": "Nm",
+      "direction": "negative joint-coordinate direction; anatomical direction unverified",
+      "positive_ctrl_joint_sign": 1,
+      "torque_coordinate": "joint",
+      "demo_torque_nm": -5
+    },
+    {
+      "name": "left",
+      "actuator": "Exo_L",
+      "joint": "ankle_angle_l",
+      "ctrlrange": [
+        -1.0,
+        0.0
+      ],
+      "gain": 100.0,
+      "gear": 1.0,
+      "off_ctrl": 0.0,
+      "off_action": 1.0,
+      "ctrl_unit": "dimensionless",
+      "output_unit": "Nm",
+      "direction": "negative joint-coordinate direction; anatomical direction unverified",
+      "positive_ctrl_joint_sign": 1,
+      "torque_coordinate": "joint",
+      "demo_torque_nm": -5
+    }
+  ],
+  "state_joints": [
+    "hip_flexion_r",
+    "knee_angle_r",
+    "ankle_angle_r",
+    "hip_flexion_l",
+    "knee_angle_l",
+    "ankle_angle_l"
+  ],
+  "schema_version": 1,
+  "ready": true,
+  "adapter": "direct_joint_fixed_gain",
+  "model_xml": null,
+  "camera": {
+    "lookat_body": "pelvis",
+    "lookat_z": 0.85,
+    "distance": 3.2,
+    "azimuth": 115,
+    "elevation": -12
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "myoassist_utils/__init__.py": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "Exact runtime source copy"
+  },
+  "myoassist_utils/compose.py": {
+    "original_sha256": "e6066ddc5c6f7422d5ad1a705b4a49e697dfcaa962580c8746fea46b47e71002",
+    "shared_sha256": "e6066ddc5c6f7422d5ad1a705b4a49e697dfcaa962580c8746fea46b47e71002",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/__init__.py": {
+    "original_sha256": "5c82b400a3750bc88ee88b2a4e8f1279ac3e8ef7c493b2712c2a497ac7ebdbef",
+    "shared_sha256": "5c82b400a3750bc88ee88b2a4e8f1279ac3e8ef7c493b2712c2a497ac7ebdbef",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/envs/__init__.py": {
+    "original_sha256": "7b123a4e6cddf50e4630de43ca7350580c1f860a8df861499b225e353c86877e",
+    "shared_sha256": "7b123a4e6cddf50e4630de43ca7350580c1f860a8df861499b225e353c86877e",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/envs/myoassist_leg_base.py": {
+    "original_sha256": "f3f970490421b063da3a5ff77d0d4676bdd141ba2f1ffe23aa7c8bc64afaafb8",
+    "shared_sha256": "f3f970490421b063da3a5ff77d0d4676bdd141ba2f1ffe23aa7c8bc64afaafb8",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/train/__init__.py": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/train/train_configs/__init__.py": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/train/train_configs/config.py": {
+    "original_sha256": "897538a03a1ff52e2f0d1f54bf93e1dadfbbd64fbd58f8f50ca67eb41a64462e",
+    "shared_sha256": "897538a03a1ff52e2f0d1f54bf93e1dadfbbd64fbd58f8f50ca67eb41a64462e",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/utils/__init__.py": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "shared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "Exact runtime source copy"
+  },
+  "rl_train/utils/data_types.py": {
+    "original_sha256": "423d467e7cb8910b100f164e2d91098a455f7c7940e89b1c4aaadd0f5d29b931",
+    "shared_sha256": "423d467e7cb8910b100f164e2d91098a455f7c7940e89b1c4aaadd0f5d29b931",
+    "change": "Exact runtime source copy"
+  },
+  "tools/exo_device.py": {
+    "original_sha256": "2b88c00ce4779ae8bc4b491dcc70ee82b14912f14d70bd9db8776aa35d481c4d",
+    "shared_sha256": "2b88c00ce4779ae8bc4b491dcc70ee82b14912f14d70bd9db8776aa35d481c4d",
+    "change": "Exact runtime source copy"
+  },
+  "tools/dephy_exo.json": {
+    "original_sha256": "ca55074b39085589cb2ae1e6d34b17d404832cee3a957bd7edaf8aa43177f5c0",
+    "shared_sha256": "ca55074b39085589cb2ae1e6d34b17d404832cee3a957bd7edaf8aa43177f5c0",
+    "change": "Exact runtime source copy"
+  },
+  "tools/exo_tcp_server.py": {
+    "original_sha256": "4ebcb3b3b7ac2dab6178bb89de17b293967b2b2ee515f6f45e9b1079034fe3d7",
+    "shared_sha256": "4ebcb3b3b7ac2dab6178bb89de17b293967b2b2ee515f6f45e9b1079034fe3d7",
+    "change": "Exact runtime source copy"
+  },
+  "tools/exo_tcp_client.py": {
+    "original_sha256": "6d79125ebfff781c979e4610e2692148ce70245bb09c9af937dff3e28e5dcde0",
+    "shared_sha256": "6d79125ebfff781c979e4610e2692148ce70245bb09c9af937dff3e28e5dcde0",
+    "change": "Exact runtime source copy"
+  },
+  "tools/exo_ros_bridge.py": {
+    "original_sha256": "2449d9e11ccb9ec3e09aa4e373c57cb55ed97a5c93f39b386eb115641892a744",
+    "shared_sha256": "2449d9e11ccb9ec3e09aa4e373c57cb55ed97a5c93f39b386eb115641892a744",
+    "change": "Exact runtime source copy"
+  },
+  "tools/demo_exo_ros.py": {
+    "original_sha256": "a9bc05a3d2dba4fe88cfea0c9ef1f8107a512690183740508ec7d3e8a56fe0e5",
+    "shared_sha256": "a9bc05a3d2dba4fe88cfea0c9ef1f8107a512690183740508ec7d3e8a56fe0e5",
+    "change": "Exact runtime source copy"
+  },
+  "tools/demo_exo_video.py": {
+    "original_sha256": "9bc3fead8973254a128a333c4f3ead29584bdec5ee9c4b63c626c0bd4e42c9c6",
+    "shared_sha256": "9bc3fead8973254a128a333c4f3ead29584bdec5ee9c4b63c626c0bd4e42c9c6",
+    "change": "Exact runtime source copy"
+  },
+  "tools/test_exo_tcp.py": {
+    "original_sha256": "f841ed49d124c49a3a11a9b1f484f57d18d05a4852d438fed6b631b70f235806",
+    "shared_sha256": "7406e1bdabb0fa65d100891b1d91aa374d1401e2117e972927df816253039e8a",
+    "change": "Test interpreter selection and metadata only"
+  },
+  "tools/test_exo_ros.py": {
+    "original_sha256": "b7fb6a8cbe175e61a66502ccb4bad133aa1c0dcdfa2ce63d61a2b5974ab5f365",
+    "shared_sha256": "4e44ddd5c8a93b822d0acde13c6149e287be3d53bdb0e3fd1a0f783778265a2f",
+    "change": "Test interpreter selection and metadata only"
+  },
+  "tools/compare_exo_ros.py": {
+    "original_sha256": "3ac8d902bbde198e538fcf3732a9eecec1b0506f0beadeab6e75cc48f0044cf3",
+    "shared_sha256": "3ac8d902bbde198e538fcf3732a9eecec1b0506f0beadeab6e75cc48f0044cf3",
+    "change": "Exact runtime source copy"
+  },
+  "tools/test_exo_comparison.py": {
+    "original_sha256": "1fce094d7e24ee21ff13d61507bb97773b1954c8ed5eff7ff3dd7118ba21d1df",
+    "shared_sha256": "1fce094d7e24ee21ff13d61507bb97773b1954c8ed5eff7ff3dd7118ba21d1df",
+    "change": "Exact runtime source copy"
+  },
+  "tools/inspect_exo_interface.py": {
+    "original_sha256": "351db6576b8a454ca89ce04ddf7aacfb7cd7c1126233208076398d6057ceadd7",
+    "shared_sha256": "351db6576b8a454ca89ce04ddf7aacfb7cd7c1126233208076398d6057ceadd7",
+    "change": "Exact runtime source copy"
+  }
+}
